@@ -1,0 +1,118 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #001f3f;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #001f3f;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.buy-button {
+  background-color: #ccc;
+  color: #001f3f;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.main-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.main-section h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.nutrition-info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.nutrition-item {
+  background-color: #ccc;
+  color: #001f3f;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.nutrition-item .value {
+  font-size: 1.5em;
+  display: block;
+}
+
+.nutrition-item .label {
+  font-size: 0.9em;
+}
+
+.disclaimer {
+  font-size: 0.9em;
+  margin-bottom: 30px;
+}
+
+.buy-now-button {
+  background-color: #ccc;
+  color: #001f3f;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.product-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+}
+
+.product-images img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #001f3f;
+  text-align: right;
+  padding: 20px;
+}
+
+.can-volume {
+  background-color: #ccc;
+  color: #001f3f;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
